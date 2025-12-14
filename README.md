@@ -12,7 +12,7 @@ Projeto frontend desenvolvido para **estudo e prática de Redux**, focado em **g
 O objetivo principal é **consolidar conceitos fundamentais de Redux** e demonstrar boas práticas para projetos frontend modernos.
 
 
-📌 **Visão Geral**
+## 📌 Visão Geral
 
 Principais conceitos trabalhados no projeto:
 
@@ -26,7 +26,7 @@ Principais conceitos trabalhados no projeto:
 Este projeto é ideal como **base didática** ou **projeto de portfólio** para demonstrar domínio de Redux.
 
 
-🏗️ **Arquitetura de Estado (Redux)**
+## 🏗️ Arquitetura de Estado (Redux)
 
 Fluxo padrão do Redux utilizado no projeto:
 
@@ -47,10 +47,9 @@ UI atualizada automaticamente
 Esse padrão garante previsibilidade, facilidade de debug e escalabilidade.
 
 
-📂 **Estrutura de Diretórios**
+## 📂 Estrutura de Diretórios
 
 ```
-
 redux-project/
 ├── public/
 │   ├── favicon.ico                                   Ícone de favorito da aplicação
@@ -122,33 +121,32 @@ redux-project/
 - Docker & Docker Compose
 
 
-### 🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 
-**Pré-requisitos**
+### Pré-requisitos
 - Node.js **16+**
 - npm ou yarn
 - Docker e Docker Compose
 
-**Instalação**
+### Instalação
 ```bash
 npm install
 # ou
 yarn install
 ````
 
-**Executar em ambiente de desenvolvimento**
+### Executar em ambiente de desenvolvimento
 
 ```bash
 make docker
 ```
 
-**A aplicação estará disponível em:**
-
+### A aplicação estará disponível em:
 ```
 http://localhost:3000
 ```
 
-**Pacotes**
+## 📦 Package / Pacotes
 
 - npm i react-router-dom
 
@@ -165,15 +163,15 @@ http://localhost:3000
 - npm i axios
 
 
-**Tela Inicial**
+### 🖥️ Tela Inicial
 
 ![Tela Inicial](https://github.com/davidbehling/redux-project/blob/main/public/images/01_Tela_login.png)
 
-**Tela após login**
+### 🖥️ Tela após login
 
 ![Tela Inicial](https://github.com/davidbehling/redux-project/blob/main/public/images/02_Tela_apos_login.png)
 
-**Tela de cadastro de endereço**
+### 🖥️ Tela de cadastro de endereço
 
 ![Tela Inicial](https://github.com/davidbehling/redux-project/blob/main/public/images/03_Tela_cadastro_endereco.png)
 
